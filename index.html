@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroceryKu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.png" class="logo" alt="logo" srcset="">
+        <nav>
+            <ul class="nav-list">
+                <li><button class="button-first" onclick="goHome()">Home</button></li>
+                <li><button class="button-mid" onclick="goPackage()">Our Package</button></li>
+                <li><button class="button-last" onclick="goCallUs()">Call Us</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slogan-title">
+            <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+            <h3 class="sub-slogan">Every Day With Best Ingredients</h3>
+        </div>
+        <div class="main-content">
+            <div class="slider-testimoni-benefits" id="banner-section">
+                <div class="slider">
+                    <img src="images/image-1.png" class="image-fruit-veg" alt="image-1" srcset="">
+                    <img src="images/image-2.png" class="image-fruit-veg" alt="image-2" srcset="">
+                    <img src="images/image-3.png" class="image-fruit-veg" alt="image-3" srcset="">
+                </div>
+                <p><i>"Setiap hari beli sayur buah yang fresh disini"</i></p>
+                <div class="person-testimoni">
+                    <img src="images/person.png" class="image-person" alt="image-person" srcset="">
+                    <div class="person-testimoni-detail">
+                        <p>Florence Hughes</p>
+                        <p><i>Ibu Rumah Tangga, 28</i></p>
+                    </div>
+                </div>
+                <div class="benefits-section">
+                    <h3>Why Choose GroceryKu?</h3>
+                    <div class="benefits-list">
+                        <div class="benefits-one">1</div>
+                        <p>Save time and money: No need to waste time and gas going to the market. Just order online and we’ll deliver your groceries within 24 hours. Plus, you’ll get the best prices and discounts on our products.</p>
+                    </div>
+                    
+                    <div class="benefits-list">
+                        <div class="benefits-two">2</div>
+                        <p>Enjoy variety and convenience: Choose from a wide range of fruits and vegetables, from local favorites to exotic imports. You can also customize your order according to your preferences and dietary needs. We’ll pack and label everything for you, so you can easily store and use them.</p>
+                    </div>
+                    
+                    <div class="benefits-list">
+                        <div class="benefits-three">3</div>
+                        <p>Support local farmers and the environment: By shopping with us, you’re supporting local farmers who grow their produce organically and sustainably. You’re also helping the environment by reducing food waste and carbon emissions.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        
+            <aside id="aside-section">
+                <div class="aside-description">
+                    <h3>Contact Us</h3>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                </div>
+                
+                <form action="" method="GET" class="form-contact" id="form-contact">
+                    <label for="name"><b>Your Name:</b></label><br>
+                    <input type="text" name="name" id="name" placeholder="Your First and Last Name"><br>
+                    <span id="error-message-name"></span>
+                    <label for="email"><b>Email Address:</b></label><br>
+                    <input type="text" name="email" id="email" placeholder="example@email.com"><br>
+                    <span id="error-message-email"></span>
+                    <label for="interestOption"><b>What are you interested in?</b></label><br>
+                    <div class="custom-select">
+                        <select id="interests" name="interests">
+                            <option value="" disabled selected>Select option</option>
+                            <option value="Fruit">Fruit</option>
+                            <option value="Vegetable">Vegetable</option>
+                        </select>
+                    </div>
+                    <span id="error-message-interests"></span>
+                    
+                    <br>
+                    <button class="submit-button" type="submit">SEND</button>
+                </form>
+            </aside>
+        </div>
+        <div id="package-section">
+            <div class="package-section-title"><h1>Our Package</h1></div>
+            <div class="package-list">
+                <div class="list-one">
+                    <div>
+                        <img src="images/icon-1.png" alt="icon-thumbs" srcset="">
+                    </div>
+                    <div class="list-one-detail list-details">
+                        <h2>Fresh Vegetable</h2>
+                        <h4>Sayuran segar langsung dari sumber pertanian terbaik</h4>
+                    </div>
+                </div>
+                <div class="list-two">
+                    <div class="list-two-icon">
+                        <img src="images/icon-1.png" alt="icon-thumbs" srcset="">
+                    </div>
+                    <div class="list-two-detail list-details">
+                        <h2>Fresh Fruit</h2>
+                        <h4>Buah dengan kualitas terbaik dari local atau import dan harga yang menarik</h4>
+                    </div>
+                </div>
+                <div class="list-three">
+                    <div class="list-three-icon">
+                        <img src="images/icon-1.png" alt="icon-thumbs" srcset="">
+                    </div>
+                    <div class="list-three-detail list-details">
+                        <h2>Instant Delivery</h2>
+                        <h4>Di kirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</h4>
+                    </div>
+                </div>
+                <div class="list-four">
+                    <div class="list-four-icon">
+                        <img src="images/icon-2.png" alt="icon-knife" srcset="">
+                    </div>
+                    <div class="list-four-detail list-details">
+                        <h2>Kitchen Ingredient</h2>
+                        <h4>Bumbu dapur lengkap untuk keperluan memasak kamu</h4>
+                    </div>
+                </div>
+                <div class="list-five">
+                    <div class="list-five-icon">
+                        <img src="images/icon-2.png" alt="icon-knife" srcset="">
+                    </div>
+                    <div class="list-five-detail list-details">
+                        <h2>Kitchen Set</h2>
+                        <h4>Segala jenis alat masak untuk membantu kamu memasak</h4>
+                    </div>
+                </div>
+                <div class="list-six">
+                    <div class="list-six-icon list-details">
+                        <img src="images/icon-2.png" alt="icon-knife" srcset="">
+                    </div>
+                    <div class="list-six-detail list-details">
+                        <h2>Bunding Set</h2>
+                        <h4>Bingung masak apa? sudah tersedia paket untuk kamu masak di dapurmu</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-closing-section">
+            <div id="closing-section">
+                <h1>Don’t Wait, Order Now!</h1>
+                <h4>GroceryKu is the best e-groceries service in Indonesia. We deliver fresh and quality fruits and vegetables to your doorstep every day. You’ll save time and money, enjoy variety and convenience, and support local farmers and the environment. Don’t miss this chance to get a 10% discount on your first purchase and a free fruit basket.</h4>
+                <h4>Click the button below and join the GroceryKu family today!</h4>
+                <button class="button-order" onclick="goAsideSection()">Order Now</button>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <img src="images/logo.png" alt="logo" srcset="">
+        <div class="terms-policy">
+            <a href="/terms-service" target="_blank">Terms of Service</a>
+            <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+        </div>
+        <div class="copyright">
+            <a>© 2024</a>
+            <a>Farid</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
